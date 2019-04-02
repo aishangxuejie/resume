@@ -29,7 +29,7 @@
 				    <img class="mr-3 img-fluid picture mx-auto" src="assets/images/profile.png" alt="">
 				    <div class="media-body p-4 d-flex flex-column flex-md-row mx-auto mx-lg-0">
 					    <div class="primary-info">
-						    <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">崔桂铭</h1>
+						    <h1 class="name mt-0 mb-0 text-white text-uppercase text-uppercase">崔桂铭</h1>
 						    <div class="title mb-3">Java Developer</div>
 						    <ul class="list-unstyled">
 							    <li class="mb-2"><a href="mailto:cuiguiming@outlook.com?cc=3094674126@qq.com&subject=HR%20发现你的简历啦&body=希望与你取得进一步沟通!"><i class="far fa-envelope fa-fw mr-2" data-fa-transform="grow-3"></i>cuiguiming@outlook.com</a></li>
@@ -312,16 +312,23 @@
 			    </div><!--//row-->
 		    </div><!--//resume-body-->
 
-
  	    </div>
+ 	    
     </article>
-
-
+	
      <footer class="footer text-center pt-2 pb-5">
-                <small class="copyright"></small>
+		<div>
+ 	    	 如果您对我的简历感兴趣——<input type="button" value="Print this page" class="fa fa-print fa-2x pull-left" onclick="printpage()" />——可以打印或者保存为PDF
+ 	    </div>
+ 	    <div>
+ 	    	<small class="copyright">Thanks for your reading my resume and hoping for your revert.</small>
+ 	    </div>
+        
     </footer>
-
-
-
  </body>
+ <script type="text/javascript">
+	function printpage(){
+	  window.print()
+	}
+</script>
 </html>
