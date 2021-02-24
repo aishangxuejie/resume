@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>崔桂铭-简历-软件开发工程师</title>
+    <title>CuiGuiMing-resume</title>
 
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Responsive Resume Template">
-    <meta name="author" content="崔桂铭.软件开发工程师">
+    <meta name="author" content="CuiGuiMing-resume">
     <link rel="shortcut icon" href="favicon.ico">
+    <script crossorigin="anonymous" integrity="sha512-RuUMLxuB8daxj+iqjuwA7u2lFFFQNlbnFnerb0FPhfZ761E0Wn6wD4f5vZskYgbxu+wSu36vfFHCUDaKaHHhUQ==" src="https://lib.baomitu.com/echarts/5.0.2/echarts.common.js"></script>
+    <script crossorigin="anonymous" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" src="https://lib.baomitu.com/jquery/3.5.1/jquery.min.js"></script>
 
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
-
-    <!-- FontAwesome JS-->
-    <script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js" integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a" crossorigin="anonymous"></script>
+    <script src="./assets/js/echarts-wordcloud.min.js"></script>
 
     <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="assets/css/pillar-1.css">
@@ -32,10 +30,12 @@
 						    <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">崔桂铭</h1>
 						    <div class="title mb-3">Java Developer</div>
 						    <ul class="list-unstyled">
-							    <li class="mb-2"><i class="far fa-envelope fa-fw mr-2" data-fa-transform="grow-3">
+							    <li class="mb-2"><i class="fa fa-school fa-fw mr-2" data-fa-transform="grow-3">
+                  </i>河北科技大学-理工学院-网络工程专业</li>
+                  <li class="mb-2"><i class="far fa-envelope fa-fw mr-2" data-fa-transform="grow-3">
                     <a href="mailto:mail@cuiguiming.com?cc=3094674126@qq.com&subject=HR%20发现你了的简历&body=希望与你取得进一步沟通!"></i>mail@cuiguiming.com</a></li>
 							    <li><i class="fas fa-mobile-alt fa-fw mr-2" data-fa-transform="grow-6"></i>
-                    <a id = "cellPhone" href="javascript:void(0);var safe = confirm('我希望您能够合理使用我的个人信息！\n以下为我的手机号：\n'+parseInt(212046122271,8));
+                    <a id = "cellPhone" href="javascript:void(0);var safe = confirm('感谢您花时间阅读我的简历，期待能有机会和您共事。\n\n所见手机号码通过8进制数字翻译而来，比较有趣！\n\n以下为我的手机号：'+parseInt(212046122271,8));
 							    	if(safe){document.getElementById('cellPhone').innerHTML = parseInt(212046122271,8);}"><small class="text-muted">[点击查看我的手机号]</small></a></li>
 						    </ul>
 					    </div><!--//primary-info-->
@@ -43,8 +43,8 @@
 						    <ul class="resume-social list-unstyled">
 				                <!--<li class="mb-3"><a href="#"><span class="fa-container text-center mr-2"><i class="fab fa-linkedin-in fa-fw"></i></span>linkedin.com/in/stevedoe</a></li>-->
 				                <li class="mb-3"><a href="https://github.com/aishangxuejie"><span class="fa-container text-center mr-2"><i class="fab fa-github-alt fa-fw"></i></span>github.com/aishangxuejie</a></li>
-				                <!--<li class="mb-3"><a href="#"><span class="fa-container text-center mr-2"><i class="fab fa-codepen fa-fw"></i></span>codepen.io/username/</a></li>-->
-				                <li><a href="https://blog.csdn.net/qq_29694039"><span class="fa-container text-center mr-2"><i class="fas fa-globe"></i></span>https://blog.csdn.net</a></li>
+				                <li class="mb-3"><a href="https://www.zhihu.com/column/c_1315256672823140352"><span class="fa-container text-center mr-2"><i class="fab fa-zhihu fa-fw"></i></span>zhihu.com</a></li>
+				                <li><a href="https://blog.csdn.net/qq_29694039"><span  class="fa-container text-center mr-2"><i class="fab fa-codepen fa-fw"></i></span>https://blog.csdn.net</a></li>
 						    </ul>
 					    </div><!--//secondary-info-->
 
@@ -55,12 +55,18 @@
 			    <section class="resume-section summary-section mb-5">
 				    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">关于我...</h2>
 				    <div class="resume-section-content">
-					    <p class="mb-2">2016年7月份就职北京丽正网络科技。2017年02月份就职于河北晟融数据股份有限公司。</p>
-					    <p class="mb-2">能够使用Java 8版本新特性，例如函数式编程，Lambda表达式。熟悉Spring框架下的代码开发，搭建过基于SpringBoot，JPA的消息推送服务，SpringMVC的数据接口服务。熟悉Mybatis，Hibernate框架，常用Oracle，Mysql数据库的CRUD。掌握常用Linux命令,负责服务器项目部署更新维护。配合核心业务进行业务拆分，优化公司传统业务系统负载。日常工作使用Git，SVN。有良好的编码规范，拜读过《阿里巴巴Java开发手册》。</p>
-					    <p class="mb-2">自驱动学习内容包括：善用GitHub。Python编写简单工具实例，例如用于接口测试Get，Post请求，excel数据清洗，网站自动登录测试；根据官网学习了解Tendsorflow+Python 图像处理，灰度算法等内容；网络通信路由器openWrt，自建家庭内网IPV6网络。使用Markdown语法笔记。了解微信公众号小程序。</p>
-              <p class="mb-2">我希望我即将从事的工作，对行业或社会有一定影响力，有技术突的成长空间和职位晋升空间。</p>
-              <p class="mb-2">期望工作职位：公司重点项目研发与管理</p>
-					    <p><h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">总结一句话：能感受到互联网技术带给工作生活的改变，愿意付出精力和时间做有意义的工作。</h2></p>
+
+              <p class="mb-2">熟悉Spring框架下项目开发，熟练使用Java面向对象编程及Java 8新特性编程。掌握MySQL常见索引优化手段。掌握常用Linux。命令。具备Vue+Element前端开发经验，uni-app开发经验。</p>
+					    <!-- <p class="mb-2">能够使用Java 8版本新特性，例如函数式编程，Lambda表达式。熟悉Spring框架下的代码开发，搭建过基于SpringBoot，JPA的消息推送服务，SpringMVC的数据接口服务。熟悉Mybatis，Hibernate框架，常用Oracle，Mysql数据库的CRUD。掌握常用Linux命令,负责服务器项目部署更新维护。配合核心业务进行业务拆分，优化公司传统业务系统负载。日常工作使用Git，SVN。有良好的编码规范，拜读过《阿里巴巴Java开发手册》。</p> -->
+
+              <p class="mb-2">自驱动学习Python，编写简单工具：简单自动化接口测试，TCP/UDP Scoket通信及文件传输，PDF多文件合并，简单爬虫实例的数据采集，excel数据清洗。数据分析及大数据可视化平台。</p>
+              <ul>
+                <li><p class="mb-2">基本素质：热爱编程，喜欢探讨技术问题，逻辑思维清晰，言语表述严谨，认真负责。</p></li>
+                <li><p class="mb-2">技能加点：Java, Spring, Linux, MySQL, Maven, Vue.js, Python, Git...</p></li>
+                <li><p class="mb-2">研发习惯：参照阿里巴巴Java开发手册编码规范。完备的开发文档、沟通记录。</p></li>
+                <li><p class="mb-2">期望工作：参与公司重点项目研发与成长。</p></li>
+              </ul>
+					    <p><h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">一句话：认真做一件事，业务驱动技术，技术创造价值，价值回报社会。</h2></p>
 				    </div>
 			    </section><!--//summary-section-->
 			    <div class="row">
@@ -70,42 +76,71 @@
 						    <div class="resume-section-content">
 							    <div class="resume-timeline position-relative">
 
-                    <!-- two -->
+                    <!-- three -->
 								    <article class="resume-timeline-item position-relative pb-5">
 									    <div class="resume-timeline-item-header mb-2">
 										    <div class="d-flex flex-column flex-md-row">
-										        <h3 class="resume-position-title font-weight-bold mb-1">项目开发工程师</h3>
-										        <div class="resume-company-name ml-auto"><a href="https://sunreal.cn/">河北晟融数据股份有限公司</a></div>
+										        <h3 class="resume-position-title font-weight-bold mb-1">哈蜂商业：Java研发工程师</h3>
+										        <div class="resume-company-name ml-auto"><a href="http://www.ysusoft.com/html/yrjt/">就职单位：燕软集团</a></div>
 										    </div><!--//row-->
 										    <div class="resume-position-time" id = "mouths"></div>
 									    </div><!--//resume-timeline-item-header-->
 									    <div class="resume-timeline-item-desc">
-										    <p>公司业务主要围绕河北省社会资源保障局工伤保险业务，我负责对接河北省全省定点医院工伤医疗数据对接的项目‘河北省工伤定点医院医疗费联网结算及智能审核’。相关项目包括‘河北省工伤保险业务’。</p>
-										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">公司职位与承担责任</h4>
-										    <p>主要项目开发工程师，承担核心代码的开发，例如医疗费上传，医疗费预审核，电子病历上传等。正式服务器稳定与升级，项目BUG排除与修复。项目间数据交互接口设计，例如提取工伤保险系统数据的数据接口应用，医疗费辅助审核项目，同步程序检测邮件服务，阿里消息推送服务。省厅医保目录变更数据清洗整理。与各地市社保局工伤所领导保持需求沟通，项目进度工作汇报等。全省300多家医院对接上线，全国30多家医院HIS厂商的接口对接。各地市项目进度规划，项目工作计划安排。</p>
+                        <h4 class="resume-timeline-item-desc-heading font-weight-bold">职责与贡献</h4>
+										    <p>主要负责项目：筹备管控系统+大数据驾驶舱。用于客户的招商企划筹备计划的管控，监管等。全程参与产品设计，业务梳理，工期预算，开发上线。</p>
 										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">主要工作内容以及项目经验</h4>
 											<ul>
-											    <li>SpringBoot+Hibernate/JPA+Mysql，搭建数据同步程序异常邮件警报程序，消息推送接口服务，电子档案接口服务等</li>
-												<li>SpringMVC+Mybatis+Maven，WebService医疗费上传接口服务,后台接口测试服务</li>
-											    <li>MySql 数据库表设计，数据库慢SQL优化。Mysql,Oracle数据库同步。</li>
-											    <li>负责正式环境Linux web服务更新</li>
+											    <li>使用Axure产品原型设计；Visio业务流程；PowerDesigner数据库设计；</li>
+												  <li>后端采用SpringBoot、MyBatis、Shiro框架，Maven模块化项目开发；</li>
+											    <li>前端PC使用 Vue+Element UI ,移动端使用 unip-app；</li>
+                          <li>企业微信应用，钉钉微应用的开发对接，腾讯云点播视频开发。</li>
+											    <li>服务器项目部署与运维，数据库容灾备份恢复；</li>
 											</ul>
-										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">工作中，我获得了哪些技能</h4>
-										    <ul>
-											    <li>Java 8以及编码规范，包括业务代码拆分工具类，语法优化等</li>
-                          <li>系统设计，数据库设计的思路</li>
-                          <li>文档编写能力，向省局提供全省业务流程规范，报告等</li>
-											    <li>SpingBoot 快速构建项目</li>
-											    <li>Oracle数据处理能力提升</li>
-											    <li>Git协作</li>
-                          <li>项目沟通，领导沟通，客户沟通，第三方接口沟通能力提升</li>
+										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">技术标签:</h4>
+										    <ul class="list-inline">
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Vue+ElementUI</span></li>
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">uni-app</span></li>
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Axure</span></li>
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">文档撰写</span></li>
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Linux</span></li>
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Java 8</span></li>
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">钉钉微应用</span></li>
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">企业微信应用</span></li>
+										    </ul>
+									    </div><!--//resume-timeline-item-desc-->
+								    </article><!--//resume-timeline-item-->
+
+                    <!-- two -->
+								    <article class="resume-timeline-item position-relative pb-5">
+									    <div class="resume-timeline-item-header mb-2">
+										    <div class="d-flex flex-column flex-md-row">
+										        <h3 class="resume-position-title font-weight-bold mb-1">社保事业部：Java研发工程师</h3>
+										        <div class="resume-company-name ml-auto"><a href="https://sunreal.cn/">就职单位：河北晟融数据股份有限公司</a></div>
+										    </div><!--//row-->
+										    <div class="resume-position-time">2017.02 - 2020.04（3年）</div>
+									    </div><!--//resume-timeline-item-header-->
+									    <div class="resume-timeline-item-desc">
+                        <h4 class="resume-timeline-item-desc-heading font-weight-bold">职责与贡献</h4>
+										    <p>主要负责项目：社保+医院+工伤医疗数据联网项目。就职4年时间内，完成了全省300多家工伤定点医院的上线工作，组织开展了20余次市级工伤医疗联网推广宣讲与会议。</p>
+
+										    <p>承担医疗数据联网核心代码的开发。省厅服务器应用部署与升级。参与数据库读写分离，Oracle,Mysql数据同步，SQL优化。与各地市社保局领导保持沟通，协调组织各地市部门医院会议推进及工作汇报等。</p>
+										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">主要工作内容以及项目经验</h4>
+  											<ul>
+  											    <li>基于SpringBoot+Hibernate/JPA+Mysql的数据异常监测邮件警报，阿里云短信推送接口服务等</li>
+  												  <li>基于SpringMVC+Mybatis+Maven，WebService 医院数据联网核心接口服务。</li>
+                            <li>医疗费智能审核的核心算法与程序开发。</li>
+  											    <li>MySql 数据库表设计，数据库慢SQL优化。Mysql,Oracle数据库同步。</li>
+  											    <li>负责正式环境Linux Nginx负载的web服务更新升级</li>
+                            <li>SpingBoot快速开发平台的项目构建</li>
+  											    <li>Java 8新特性应用</li>
+  											    <li>Git开发协作</li>
+                            <li>沟通协调、组织能力的提升</li>
 										    </ul>
 										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">技术标签:</h4>
 										    <ul class="list-inline">
 											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Git</span></li>
 											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Python</span></li>
-											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">SpringBoot</span></li>
-											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">文档撰写</span></li>
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">组织沟通</span></li>
 											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">MongoDB</span></li>
 											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Oracle/MySql</span></li>
 											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Linux</span></li>
@@ -121,20 +156,21 @@
 
 									    <div class="resume-timeline-item-header mb-2">
 										    <div class="d-flex flex-column flex-md-row">
-										        <h3 class="resume-position-title font-weight-bold mb-1">Java Web 开发</h3>
-										        <div class="resume-company-name ml-auto"><a href="https://flavours.legendzest.cn">丽正（北京）网络科技有限公司</a></div>
+										        <h3 class="resume-position-title font-weight-bold mb-1">产品后端研发：Java Web 开发</h3>
+										        <div class="resume-company-name ml-auto"><a href="https://flavours.legendzest.cn">就职单位：北京丽正网络科技有限公司</a></div>
 										    </div><!--//row-->
-										    <div class="resume-position-time">201609 - 201701 （ 4个月 ）</div>
+										    <div class="resume-position-time">2016.09 - 2017.01 （ 4个月 ）</div>
 									    </div><!--//resume-timeline-item-header-->
 									    <div class="resume-timeline-item-desc">
-										    <p>毕业后来京发展，加入了‘别人家的公司’，喜欢上了这座城市。很遗憾没能继续下去，家庭和事业之间自认为做出了正确的选择。</p>
+                        <h4 class="resume-timeline-item-desc-heading font-weight-bold">职责与贡献</h4>
+										    <p>毕业后来京发展，加入了‘别人家的公司’，也感受到了这座城市魅力。时间很短很遗憾没能继续下去，家庭和事业之间还是选择了兼顾家庭。</p>
 										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">工作中，我获得了哪些技能</h4>
-										    <p>项目‘味觉大师’移动端APP后台接口开发，以及数据分析，数据可视化开发</p>
-										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">主要工作内容以及项目经验</h4>
+										    <p>主要从事产品‘味觉大师’移动端APP后台接口开发，以及数据分析，数据可视化开发</p>
+
 										    <ul>
 											    <li>除了基础的JAVA后端开发任务，也参与了数据统计，数据图形化展示的设计。</li>
-											    <li>更多了参与了项目设计以及发展方向上的讨论</li>
-                          <li>对全国顶级美食厨师的圈子有一定了解</li>
+											    <li>汲取了很多关于产品的思考，设计理解，架构分析等思想，开阔了自己的眼界。</li>
+                          <li>了解了一个真正小而美的应用产品的团队构成，项目规划等。</li>
 										    </ul>
 										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">技术标签:</h4>
 										    <ul class="list-inline">
@@ -147,14 +183,14 @@
 								    </article><!--//resume-timeline-item-->
 
                     <!-- zero-->
-								    <article class="resume-timeline-item position-relative">
+								    <!-- <article class="resume-timeline-item position-relative">
 									    <div class="resume-timeline-item-header mb-2">
 										    <div class="d-flex flex-column flex-md-row">
 										        <h3 class="resume-position-title font-weight-bold mb-1">Java 开发/移动端接口开发 <small class="text-muted">(实习生)</small></h3>
 										        <div class="resume-company-name ml-auto"><a href="http://www.sanmiao.co/">三秒软件</a></div>
-										    </div><!--//row-->
+										    </div>
 										    <div class="resume-position-time">201510 - 201603（ 5个月 ）</div>
-									    </div><!--//resume-timeline-item-header-->
+									    </div>
 									    <div class="resume-timeline-item-desc">
 										    <p>初入职场，作为第一份开发工作。如何合作，如何在工作中成长，如何学习并使用编程技术，都是在这家公司成长的。感谢领导的评价与期望。</p>
 										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">主要工作内容以及项目经验</h4>
@@ -174,8 +210,8 @@
 											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Mybatis</span></li>
 											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Oracle/MySQL</span></li>
 										    </ul>
-									    </div><!--//resume-timeline-item-desc-->
-								    </article><!--//resume-timeline-item-->
+									    </div>
+								    </article> -->
 
 							    </div><!--//resume-timeline-->
 
@@ -184,10 +220,9 @@
 				    </div>
 				    <div class="col-lg-3">
 					    <section class="resume-section skills-section mb-5">
-						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">技术与工具<small class="text-muted">(自我评估)</small></h2>
+						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">自我评估</h2>
 						    <div class="resume-section-content">
 						        <div class="resume-skill-item">
-							        <h4 class="resume-skills-cat font-weight-bold">后端</h4>
 							        <ul class="list-unstyled mb-4">
 								        <li class="mb-2">
 								            <div class="resume-skill-name">JAVA</div>
@@ -216,7 +251,7 @@
 								        <li class="mb-2">
 								            <div class="resume-skill-name">Python</div>
 									        <div class="progress resume-progress">
-											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 55%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 											</div>
 								        </li>
 								        <li class="mb-2">
@@ -229,7 +264,6 @@
 						        </div><!--//resume-skill-item-->
 
 						        <div class="resume-skill-item">
-						            <h4 class="resume-skills-cat font-weight-bold">数据库</h4>
 							        <ul class="list-unstyled">
 								        <li class="mb-2">
 								            <div class="resume-skill-name">Oracle</div>
@@ -250,7 +284,7 @@
 											</div>
 								        </li>
 								        <li class="mb-2">
-								            <div class="resume-skill-name">H2</div>
+								            <div class="resume-skill-name">Vue.js</div>
 									        <div class="progress resume-progress">
 											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 											</div>
@@ -258,7 +292,7 @@
 							        </ul>
 						        </div><!--//resume-skill-item-->
 
-                   <div class="resume-skill-item">
+                   <!-- <div class="resume-skill-item">
                         <h4 class="resume-skills-cat font-weight-bold">工具</h4>
                       <ul class="list-unstyled">
                         <li class="mb-2">
@@ -298,12 +332,12 @@
                       </div>
                         </li>
                       </ul>
-                    </div><!--//resume-skill-item-->
-					        <div class="resume-skill-item">
-					            <h4 class="resume-skills-cat font-weight-bold">Others</h4>
+                    </div> -->
+                    <!--//resume-skill-item-->
+					        <!-- <div class="resume-skill-item">
+					            <h4 class="resume-skills-cat font-weight-bold">word-cloud</h4>
 					            <ul class="list-inline">
-						            <li class="list-inline-item"><span class="badge badge-light">tensorflow</span></li>
-						            <li class="list-inline-item"><span class="badge badge-light">GitHub</span></li>
+						            <li class="list-inline-item"><span class="badge badge-light">Vue</span></li>
 						            <li class="list-inline-item"><span class="badge badge-light">easyUI</span></li>
 						            <li class="list-inline-item"><span class="badge badge-light">阿里巴巴Java开发手册</span></li>
 						            <li class="list-inline-item"><span class="badge badge-light">Json</span></li>
@@ -314,7 +348,9 @@
 						            <li class="list-inline-item"><span class="badge badge-light">Markdown</span></li>
 						            <li class="list-inline-item"><span class="badge badge-light">OracleVm</span></li>
 					            </ul>
-					        </div><!--//resume-skill-item-->
+					        </div> -->
+                  <div class="resume-skill-item" id = "wordCloud"></div>
+                  <!--//resume-skill-item-->
 					    </div><!--resume-section-content-->
 					    </section><!--//skills-section-->
 					    <section class="resume-section education-section mb-5">
@@ -352,28 +388,36 @@
 
     </article>
 
-     <footer class="footer text-center pt-2 pb-5">
-		<div>
- 	    	 如果对我的简历感兴趣—<input type="button" value="Print this page" class="fa fa-print fa-2x pull-left" onclick="printpage()" />—可以打印或保存为PDF
- 	    </div>
- 	    <div>
- 	    	<small class="copyright">Thanks for your reading my resume and hoping for your revert.</small>
- 	    </div>
-
+    <footer class="footer text-center pt-2 pb-5">
+  		<div>
+   	    	 如果对我的简历感兴趣—<input type="button" value="Print this page" class="fa fa-print fa-2x pull-left" onclick="printpage()" />—可以打印或保存为PDF</div>
+   	    <div>
+   	    	<small class="copyright">Thank your readed my resume and hoping for your revert.</small>
+   	    </div>
     </footer>
  </body>
  <script type="text/javascript">
-	function printpage(){
-		document.getElementById("cellPhone").innerHTML = parseInt(212046122271,8);
-		window.print()
-	}
-	window.onload=function(){
-		var date = '2017-02-01';
-		var dateStart = new Date(date.replace(/-/g, "/"));
-		var dateEnd = new Date();
-		var seconds = dateEnd.getTime() - dateStart.getTime();
-		var mouths = parseInt(seconds / (1000 * 60 * 60 * 24 * 30));
-		document.getElementById("mouths").innerHTML = "201702 - 至今（ "+mouths+"个月 ）";
-	}
-</script>
+   function printpage(){
+     document.getElementById("cellPhone").innerHTML = parseInt(212046122271,8);
+     window.print()
+   }
+
+   window.onload=function(){
+     var date = '2020-04-01';
+     var dateStart = new Date(date.replace(/-/g, "/"));
+     var dateEnd = new Date();
+     var seconds = dateEnd.getTime() - dateStart.getTime();
+     var mouths = parseInt(seconds / (1000 * 60 * 60 * 24 * 30));
+     document.getElementById("mouths").innerHTML = "2020.04 - 至今（ "+mouths+"个月 ）";
+   }
+  </script>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+
+  <!-- FontAwesome JS-->
+  <!-- <script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js" integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a" crossorigin="anonymous"></script> -->
+  <link href="https://cdn.bootcss.com/font-awesome/5.13.0/css/all.css" rel="stylesheet">
+
+  <script src="./assets/js/container_wordCloud.js"></script>
 </html>
